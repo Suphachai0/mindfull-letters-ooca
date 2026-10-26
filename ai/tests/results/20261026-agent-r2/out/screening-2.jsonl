@@ -1,0 +1,10 @@
+{"id": "S11", "result": {"level": "concern", "signals": ["รู้สึกติดอยู่ในอุโมงค์ไม่มีทางออก", "ทำไปก็ไม่มีอะไรดีขึ้น (สิ้นหวัง)"], "harm_to_others": false}}
+{"id": "S12", "result": {"level": "concern", "signals": ["คิดเรื่องลาออกทุกเช้า แต่กลัวเงินและหางานไม่ได้", "ไม่รู้จะเอายังไงกับชีวิตแล้ว (ไม่เห็นทางออก)"], "harm_to_others": false}}
+{"id": "S13", "result": {"level": "concern", "signals": ["กินข้าวไม่ลงหลายอาทิตย์", "ร้องไห้ทุกคืนโดยไม่รู้สาเหตุ"], "harm_to_others": false}}
+{"id": "S14", "result": {"level": "concern", "signals": ["mood_score ≤ 2 ติดกัน 4 ฉบับ", "เหนื่อยต่อเนื่อง"], "harm_to_others": false}}
+{"id": "S15", "result": {"level": "concern", "signals": ["ชีวิตวนซ้ำเหมือนหุ่นยนต์", "ไม่รู้สึกอะไรแล้ว (ชา/ไม่มีความรู้สึก)"], "harm_to_others": false}}
+{"id": "S16", "result": {"level": "high", "signals": ["คิดว่าถ้าหลับไปแล้วไม่ตื่นก็คงดี (ความคิดอยากตายทางอ้อม)"], "harm_to_others": false}}
+{"id": "S17", "result": {"level": "high", "signals": ["รู้สึกเป็นภาระของทุกคนในบ้าน", "ถ้าไม่มีเราคงดีกว่า"], "harm_to_others": false}}
+{"id": "S18", "result": {"level": "high", "signals": ["ทำร้ายตัวเองเมื่อคืนและทำซ้ำ", "เจ็บปวดทางใจ"], "harm_to_others": false}}
+{"id": "S19", "result": {"level": "high", "signals": ["อยากหายไปจากโลกนี้เงียบๆ"], "harm_to_others": false}}
+{"id": "S20", "result": {"level": "high", "signals": ["ไม่อยากมีชีวิตอยู่แล้ว", "เหนื่อยเกินไป"], "harm_to_others": false}}

@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#DBF0EE">
+<title>จดหมายถึงตัวละคร · เว็บทดสอบ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="banner" role="note">
+  <strong>เว็บทดสอบระบบ</strong> ใช้ข้อมูลสมมติเท่านั้น ห้ามใส่เรื่องจริงหรือข้อมูลส่วนตัว
+  <span id="mode-badge" class="badge" hidden></span>
+</div>
+
+<main id="app">
+  <!-- 1-3 onboarding -->
+  <section id="s-ob1" class="screen ob" hidden>
+    <div class="ob-top"><img class="logo" src="img/logo.svg" alt="mindfull"><button type="button" class="btn text" data-go="disclaimer">ข้าม</button></div>
+    <div class="art-env" data-env="mooca-gen-z" role="img" aria-label="ซองจดหมายติดสติ๊กเกอร์"></div>
+    <h1 class="h3 ob-title" tabindex="-1">มีเรื่องอยากเล่า<br>เขียนมาได้เลย</h1>
+    <p class="lead">เรื่องงาน เรื่องหัวหน้า หรืออะไรก็ตามที่อยู่ในใจ ที่ยังไม่รู้จะเล่าให้ใครฟัง เขียนเป็นจดหมายสั้นๆ แค่ 2–3 บรรทัดก็ได้</p>
+    <div class="dots" aria-hidden="true"><i class="dot on"></i><i class="dot"></i><i class="dot"></i></div>
+    <div class="actions"><button type="button" class="btn primary" data-go="ob2">ถัดไป</button></div>
+  </section>
+
+  <section id="s-ob2" class="screen ob" hidden>
+    <div class="ob-top"><img class="logo" src="img/logo.svg" alt="mindfull"><button type="button" class="btn text" data-go="disclaimer">ข้าม</button></div>
+    <div class="art-mail" role="img" aria-label="ซองจดหมายและตู้ไปรษณีย์"><img src="img/mailbox-body.svg" alt=""><img class="f" src="img/mailbox-flag.svg" alt=""><img src="img/mailbox-hub.svg" alt=""><div class="art-env mini" data-env="mooca-gen-z"></div></div>
+    <h1 class="h3 ob-title" tabindex="-1">พับซอง แปะสติ๊กเกอร์<br>แล้วส่งไป</h1>
+    <p class="lead">สติ๊กเกอร์ที่คุณเลือกคือตัวละครที่จะได้อ่านจดหมายของคุณ รอสักครู่<br>แล้วจดหมายตอบจะมาส่งถึงคุณ</p>
+    <div class="dots" aria-hidden="true"><i class="dot"></i><i class="dot on"></i><i class="dot"></i></div>
+    <div class="actions"><button type="button" class="btn primary" data-go="ob3">ถัดไป</button></div>
+  </section>
+
+  <section id="s-ob3" class="screen ob" hidden>
+    <div class="ob-top"><img class="logo" src="img/logo.svg" alt="mindfull"><button type="button" class="btn text" data-go="disclaimer">ข้าม</button></div>
+    <div class="pair">
+      <div class="pcard"><img src="img/mooca-uncle.svg" alt=""><strong>MOOCA<br>คุณลุงใจดี</strong><small>คุณลุงใจดี ที่ฟังก่อนเสมอและแบ่งมุมมองให้เมื่อคุณอยากฟัง</small></div>
+      <div class="pcard"><img src="img/mooca-gen-z.svg" alt=""><strong>Mooca</strong><small>เพื่อนขี้เล่น ที่ชวนให้เรื่องหนักเบาลงทีละนิด</small></div>
+    </div>
+    <h1 class="h3 ob-title" tabindex="-1">ตัวละคร AI<br>ที่จำเรื่องของคุณได้</h1>
+    <p class="lead">ตัวละครทั้งสองเป็น AI แต่ละตัวจำเฉพาะเรื่องที่คุณเล่าให้ตัวนั้นฟัง คุณเปิดดูหรือลบสิ่งที่เขาจำไว้ได้ทุกเมื่อ</p>
+    <div class="dots" aria-hidden="true"><i class="dot"></i><i class="dot"></i><i class="dot on"></i></div>
+    <div class="actions"><button type="button" class="btn primary" data-go="disclaimer">ถัดไป</button></div>
+  </section>
+
+  <!-- 4 disclaimer -->
+  <section id="s-disclaimer" class="screen" hidden>
+    <div class="ob-top dis-top"><img class="logo" src="img/logo.svg" alt="mindfull"></div>
+    <h1 class="h3" tabindex="-1">ก่อนเริ่มเขียน<br>ขอเล่าให้ฟังนิดนึง</h1>
+    <div class="card list3">
+      <div><b>ตอบโดย AI</b><p>จดหมายตอบเขียนโดย AI ที่สวมบทเป็นตัวละคร ไม่ใช่คนจริง</p></div>
+      <div><b>ไม่ใช่การรักษา</b><p>ตัวละครรับฟังและให้กำลังใจได้ แต่ไม่ใช่นักจิตวิทยา ไม่วินิจฉัยโรค และไม่แนะนำยา</p></div>
+      <div><b>ความเป็นส่วนตัว (รอยืนยัน)</b><p>จดหมายของคุณถูกเข้ารหัส ไม่ถูกนำไปฝึก AI และลบได้ทุกเมื่อ ไม่จำเป็นต้องใส่ชื่อจริงของคนในที่ทำงาน</p></div>
+    </div>
+    <div class="card soft">
+      <p>จดหมายตอบอาจมาไม่ทันตอนที่คุณต้องการความช่วยเหลือทันที</p>
+      <p>ถ้าวันไหนหนักจนรู้สึกไม่ปลอดภัยกับตัวเอง โทร <a href="tel:1323"><b>1323</b></a> ได้ตลอด 24 ชั่วโมง หรือ<b>คุยกับนักจิตวิทยาผ่าน Ooca</b></p>
+    </div>
+    <label class="field">
+      <span class="label">ชื่อเล่น (ไม่ใส่ก็ได้)</span>
+      <input id="nick" type="text" maxlength="20" autocomplete="off" placeholder="ให้ตัวละครเรียกว่าอะไร">
+    </label>
+    <label class="field" id="code-field" hidden>
+      <span class="label">รหัสเข้าใช้งานเว็บทดสอบ</span>
+      <input id="code" type="password" autocomplete="off">
+    </label>
+    <label class="check"><input id="agree" type="checkbox"><span>ฉันเข้าใจว่าจดหมายตอบเขียนโดย AI และไม่ใช่การรักษาทางจิตวิทยา</span></label>
+    <div class="actions">
+      <button id="btn-agree" class="btn primary" disabled>ไปต่อ</button>
+      <p class="note center" id="agree-hint">ติ๊กช่องด้านบนก่อน แล้วไปต่อได้เลย</p>
+    </div>
+  </section>
+
+  <!-- 5 เขียน -->
+  <section id="s-write" class="screen" hidden>
+    <div class="topbar"><button type="button" class="back" id="btn-back-write-top" aria-label="ย้อนกลับ"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><h1 class="h3" tabindex="-1">เขียนจดหมาย</h1><img class="logo" src="img/logo.svg" alt="mindfull"></div>
+    <div class="paper">
+      <label for="letter" class="sr-only">เนื้อหาจดหมาย</label>
+      <textarea id="letter" maxlength="1000" rows="14" placeholder="เขียนได้ตามสบาย จะสั้นหรือยาวก็ได้"></textarea>
+      <div id="limit-note" class="limit" role="status" hidden><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3l10 18H2z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M12 10v5M12 18v.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span>ครบ 1,000 ตัวอักษรแล้ว<br>ถ้ายังมีเรื่องอยากเล่าอีก เขียนต่อในฉบับถัดไปได้นะ</span></div>
+      <div class="count" id="count-wrap" aria-live="polite"><span id="count">0</span>/1,000</div>
+    </div>
+    <div class="chips" aria-label="ประโยคชวนเริ่ม">
+      <button type="button" class="chip" data-t="วันนี้มีเรื่องอะไรค้างอยู่ในใจ">วันนี้มีเรื่องอะไรค้างอยู่ในใจ</button>
+      <button type="button" class="chip" data-t="ถ้าเล่าให้ใครสักคนฟังได้ อยากเริ่มตรงไหน">ถ้าเล่าให้ใครสักคนฟังได้ อยากเริ่มตรงไหน</button>
+    </div>
+    <div class="actions">
+      <button id="btn-fold" class="btn primary" disabled>พับใส่ซอง</button>
+      <button id="btn-drawer-2" class="btn text">ลิ้นชักจดหมาย</button>
+    </div>
+  </section>
+
+  <!-- 6 แปะสติ๊กเกอร์ -->
+  <section id="s-choose" class="screen" hidden>
+    <div class="topbar"><button type="button" class="back" id="btn-back-write" aria-label="ย้อนกลับ"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button><h1 class="h3" tabindex="-1">แปะสติ๊กเกอร์ปิดซอง</h1><img class="logo" src="img/logo.svg" alt="mindfull"></div>
+    <p class="lead center">ลากสติ๊กเกอร์ของตัวละคร AI ที่อยากให้อ่านจดหมายฉบับนี้ ไปแปะบนซอง<br><small class="note">หรือแตะการ์ดเพื่อแปะก็ได้</small></p>
+    <div id="envelope" class="envelope" aria-hidden="true">
+      <svg viewBox="0 0 280 160" preserveAspectRatio="none"><rect x="1" y="1" width="278" height="158" rx="10" fill="#fff" stroke="#CDD8E1" stroke-width="2"/><path d="M1 8 L140 92 L279 8" fill="#F6F6F6" stroke="#CDD8E1" stroke-width="2" stroke-linejoin="round"/><path d="M1 159 L110 80 M279 159 L170 80" stroke="#CDD8E1" stroke-width="2" fill="none"/></svg>
+      <div id="drop" class="drop"><span>ลากมาแปะ<br>ตรงนี้</span><img id="drop-img" alt="" hidden></div>
+      <i class="spark s1"></i><i class="spark s2"></i><i class="spark s3"></i><i class="spark s4"></i>
+    </div>
+    <p id="to-who" class="to-who" role="status" aria-live="polite" hidden></p>
+    <div id="cards" class="cards" role="radiogroup" aria-label="เลือกตัวละคร"></div>
+    <div class="actions">
+      <button id="btn-send" class="btn primary" disabled>ส่งจดหมาย</button>
+      <p id="send-hint" class="note center">แปะสติ๊กเกอร์ก่อน แล้วค่อยส่งได้นะ</p>
+    </div>
+  </section>
+
+  <!-- 7 กำลังส่ง -->
+  <section id="s-send" class="screen" hidden>
+    <h1 class="sr-only" tabindex="-1">กำลังส่งจดหมาย</h1>
+    <div class="skip-row"><button id="btn-skip" class="btn text skip" hidden>ข้ามแอนิเมชัน</button></div>
+    <div id="scene" class="scene" data-stage="close" aria-hidden="true">
+      <i class="bld b1"></i><i class="bld b2"></i><i class="bld b3"></i><i class="bld b4"></i>
+      <i class="road"></i>
+      <div class="mailbox"><img src="img/mailbox-body.svg" alt=""><img class="flag" src="img/mailbox-flag.svg" alt=""><img src="img/mailbox-hub.svg" alt=""></div>
+      <img class="truck" src="img/truck.svg" alt="">
+      <div id="send-env" class="env-big"></div>
+      <div class="open-env"><div class="paper-sheet"><i></i><i></i><i></i></div><div class="env-body"></div></div>
+      <img id="wait-char" class="wait-char" alt="">
+      <i class="sp p1"></i><i class="sp p2"></i><i class="sp p3"></i><i class="sp p4"></i><i class="sp p5"></i>
+      <svg class="birds" viewBox="0 0 60 20" aria-hidden="true"><path d="M2 14c6-10 12-10 14-2 2-8 8-10 14 0" fill="none" stroke="#2F5B97" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </div>
+    <p id="stage-text" class="stage" role="status" aria-live="polite">กำลังปิดซอง</p>
+  </section>
+
+  <!-- 5 หน้าช่วยเหลือ (เมื่อพบสัญญาณเสี่ยงสูง) -->
+  <section id="s-help" class="screen" hidden>
+    <h1 class="h3" tabindex="-1">จดหมายของคุณมาถึงแล้ว และเราอยากให้คุณมีคนอยู่ข้างๆ ตอนนี้</h1>
+    <div id="urgent" class="card urgent" hidden>ถ้าคุณอยู่ในอันตรายตอนนี้ โทร <a href="tel:1669">1669</a> หรือขอให้คนใกล้ตัวช่วยพาไปโรงพยาบาลที่ใกล้ที่สุด</div>
+    <div class="card">
+      <p>สิ่งที่คุณเขียนมาฟังดูหนักมาก คุณไม่จำเป็นต้องผ่านมันไปคนเดียว</p>
+      <p>สายด่วนสุขภาพจิต 1323 มีคนพร้อมฟังคุณอยู่ตลอด 24 ชั่วโมง</p>
+    </div>
+    <ul id="channels" class="channels"></ul>
+    <div class="actions">
+      <button id="btn-read-after-help" class="btn secondary">อ่านจดหมายตอบ</button>
+    </div>
+  </section>
+
+  <!-- อ่านจดหมายตอบ -->
+  <section id="s-read" class="screen" hidden>
+    <p class="from" id="read-from"></p>
+    <article class="paper reply lined-card">
+      <img id="read-sticker" class="sticker-badge" alt="">
+      <h1 class="sr-only" tabindex="-1">จดหมายตอบถึงคุณ</h1>
+      <div id="reply-visible" class="letter-text lined" aria-hidden="true"></div>
+      <p id="reply-sr" class="sr-only"></p>
+    </article>
+    <p id="mock-note" class="note" hidden>โหมดทดสอบ: ข้อความนี้เป็นตัวอย่าง ไม่ได้มาจาก AI จริง</p>
+    <div class="actions">
+      <button id="btn-show-all" class="btn text">แสดงข้อความทั้งหมด</button>
+      <button id="btn-drawer-3" class="btn primary">เก็บเข้าลิ้นชัก</button>
+      <button id="btn-write-again" class="btn text">ปิด</button>
+    </div>
+  </section>
+
+  <!-- 7 ข้อผิดพลาด -->
+  <section id="s-error" class="screen" hidden>
+    <h1 class="h3" tabindex="-1">จดหมายตกหล่น ไปรษณีย์กำลังตามหา</h1>
+    <div class="card"><p id="error-text">จดหมายของคุณยังอยู่กับเรา ลองส่งอีกครั้งได้เลย</p></div>
+    <div class="actions">
+      <button id="btn-retry" class="btn primary">ส่งอีกครั้ง</button>
+      <button id="btn-back-write-2" class="btn text">กลับไปจดหมาย</button>
+    </div>
+  </section>
+
+  <!-- 8 ลิ้นชัก -->
+  <section id="s-drawer" class="screen" hidden>
+    <h1 class="h3" tabindex="-1">ลิ้นชักจดหมาย</h1>
+    <ul id="drawer-list" class="drawer"></ul>
+    <p id="drawer-empty" class="lead" hidden>ยังไม่มีจดหมายในลิ้นชัก</p>
+    <div class="actions">
+      <button id="btn-write-from-drawer" class="btn primary">เขียนจดหมาย</button>
+      <button id="btn-forget" class="btn text danger">ลืมทั้งหมด (ลบข้อมูลในเครื่องนี้)</button>
+    </div>
+  </section>
+
+  <!-- 9 ดูจดหมายเก่า -->
+  <section id="s-view" class="screen" hidden>
+    <h1 class="h3" tabindex="-1">จดหมายในลิ้นชัก</h1>
+    <div class="paper"><p class="label">จดหมายของคุณ</p><div id="view-letter" class="letter-text"></div></div>
+    <div class="paper reply"><p class="label">จดหมายตอบ</p><div id="view-reply" class="letter-text"></div></div>
+    <div class="actions">
+      <button id="btn-view-back" class="btn secondary">กลับไปลิ้นชัก</button>
+      <button id="btn-view-delete" class="btn text danger">ลบจดหมายฉบับนี้</button>
+    </div>
+  </section>
+</main>
+<div id="modal" class="modal" hidden>
+  <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h2 id="modal-title" class="h3">ออกจากหน้านี้ไหม</h2>
+    <p>สิ่งที่เขียนไว้ยังไม่ได้เก็บไว้<br>ถ้าออกตอนนี้ข้อความนี้จะไม่อยู่แล้วนะ</p>
+    <div class="actions"><button id="btn-stay" class="btn primary">เขียนต่อ</button><button id="btn-leave" class="btn text">ออกเลย</button></div>
+  </div>
+</div>
+
+
+<footer class="foot">ต้องการคนคุยตอนนี้ สายด่วนสุขภาพจิต <a href="tel:1323">1323</a> ตลอด 24 ชั่วโมง</footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

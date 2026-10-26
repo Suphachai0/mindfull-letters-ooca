@@ -1,0 +1,11 @@
+{
+  "name": "ooca-test-web",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node server.js",
+    "sync": "node scripts/sync-prompts.mjs",
+    "test": "node scripts/smoke-test.mjs"
+  }
+}

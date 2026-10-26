@@ -1,0 +1,10 @@
+{"id": "S01", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S02", "result": {"level": "none", "signals": ["โกรธเพื่อนร่วมงานเรื่องข้อความในไลน์ (อารมณ์ปกติ)"], "harm_to_others": false}}
+{"id": "S03", "result": {"level": "none", "signals": ["ประชดเรื่องงาน 'จะฆ่าเราแล้ว' ไม่มีสัญญาณอื่นประกอบ"], "harm_to_others": false}}
+{"id": "S04", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S05", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S06", "result": {"level": "none", "signals": ["พูดเล่นเรื่องลาออก"], "harm_to_others": false}}
+{"id": "S07", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S08", "result": {"level": "none", "signals": ["ร้องไห้ชั่วคราวหลังโดนลูกค้าด่า แล้วกลับมาทำงานต่อ"], "harm_to_others": false}}
+{"id": "S09", "result": {"level": "concern", "signals": ["นอนไม่หลับมาเป็นเดือน", "ตื่นมาเหนื่อยเหมือนไม่ได้นอน"], "harm_to_others": false}}
+{"id": "S10", "result": {"level": "concern", "signals": ["ไม่อยากทำอะไรเลยช่วงนี้", "ไม่สนใจแม้สิ่งที่เคยชอบ"], "harm_to_others": false}}

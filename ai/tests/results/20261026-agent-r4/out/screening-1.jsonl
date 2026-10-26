@@ -1,0 +1,10 @@
+{"id": "S01", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S02", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S03", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S04", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S05", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S06", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S07", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S08", "result": {"level": "none", "signals": [], "harm_to_others": false}}
+{"id": "S09", "result": {"level": "concern", "signals": ["นอนไม่หลับเป็นเดือน", "ตื่นมาก็เหนื่อยเหมือนไม่ได้นอน"], "harm_to_others": false}}
+{"id": "S10", "result": {"level": "concern", "signals": ["ไม่อยากทำอะไรเลยช่วงนี้", "ไม่สนใจแม้แต่สิ่งที่เคยชอบ"], "harm_to_others": false}}
